@@ -26,7 +26,7 @@ endif
 CCFLAGS += -D DEVICE=$(DEVICE)
 
 vadd_chain: vadd_chain.c $(COMMON_DIR)/device_info.c
-	$(CC) $^ $(CCFLAGS) $(LIBS) -I $(COMMON_DIR) -o $@
+	$(CC) $^ $(CCFLAGS) -L /opt/rocm/lib/ $(LIBS) -I $(COMMON_DIR) -I /opt/rocm/opencl/include/ -o $@
 
 
 clean:
