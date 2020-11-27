@@ -1,0 +1,20 @@
+
+Number of OpenCL platforms: 1
+
+-------------------------
+Platform: AMD Accelerated Parallel Processing
+Vendor: Advanced Micro Devices, Inc.
+Version: OpenCL 2.0 AMD-APP (3188.5)
+Number of devices: 1
+	-------------------------
+		Name: gfx902
+		Version: OpenCL C 2.0 
+		Max. Compute Units: 28
+		Local Memory Size: 64 KB
+		Global Memory Size: 512 MB
+		Max Alloc Size: 435 MB
+		Max Work-group Total Size: 256
+		Max Work-group Dims: ( 1024 1024 1024 )
+	-------------------------
+
+-------------------------
